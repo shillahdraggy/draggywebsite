@@ -1,0 +1,81 @@
+header {
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+    font-color
+}
+footer {
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    overflow: hidden;
+    background-color: cyan;
+}
+nav a {
+    float: left;
+    display: block;
+    color: darkgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: darkorange;
+    color: forestgreen;
+}
+/* Formatting hero section */
+.hero {
+    min-height: 500px;
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url("Image8.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+.hero-content {
+    max-width: 800px;
+    color: burlywood;
+
+}
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.hero h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rosybrown;
+}
+.hero p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: salmon;
+}
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form{
+    margin: 40px;
+}
+input{type="text"},
+input{type="email"},
+textarea{
+    display: block;
+    padding:10px;
+    width: 80%;
+    font-family:monospace;
+    text-transform:uppercase;
+}
